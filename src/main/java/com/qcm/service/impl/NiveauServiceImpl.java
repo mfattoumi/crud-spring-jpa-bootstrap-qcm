@@ -1,6 +1,6 @@
-package com.quizz.entretien.dev.service.impl;
+package com.qcm.service.impl;
 
-import com.quizz.entretien.dev.service.NiveauService;
+import com.qcm.service.NiveauService;
 
 public class NiveauServiceImpl implements NiveauService{
 

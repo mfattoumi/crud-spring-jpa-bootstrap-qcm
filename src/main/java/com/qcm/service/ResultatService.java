@@ -1,4 +1,4 @@
-package com.quizz.entretien.dev.service;
+package com.qcm.service;
 
 public interface ResultatService {
 

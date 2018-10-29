@@ -1,6 +1,6 @@
-package com.quizz.entretien.dev.service.impl;
+package com.qcm.service.impl;
 
-import com.quizz.entretien.dev.service.UtilisateurService;
+import com.qcm.service.UtilisateurService;
 
 public class UtilisateurServiceImpl implements UtilisateurService{
 

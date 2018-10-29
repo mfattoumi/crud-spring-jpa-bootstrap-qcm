@@ -1,4 +1,4 @@
-package com.test.quizz.entretien.dev.helpers;
+package com.test.qcm.helpers;
 
 public class DaoTestHelper {
 

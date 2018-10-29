@@ -1,4 +1,4 @@
-package com.quizz.entretien.dev.props;
+package com.qcm.props;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

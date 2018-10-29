@@ -1,6 +1,6 @@
-package com.quizz.entretien.dev.service.impl;
+package com.qcm.service.impl;
 
-import com.quizz.entretien.dev.service.ReponseService;
+import com.qcm.service.ReponseService;
 
 public class ReponseServiceImpl implements ReponseService{
 

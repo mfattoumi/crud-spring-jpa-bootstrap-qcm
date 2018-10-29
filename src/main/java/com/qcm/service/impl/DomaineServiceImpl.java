@@ -1,6 +1,6 @@
-package com.quizz.entretien.dev.service.impl;
+package com.qcm.service.impl;
 
-import com.quizz.entretien.dev.service.DomaineService;
+import com.qcm.service.DomaineService;
 
 public class DomaineServiceImpl implements DomaineService{
 
