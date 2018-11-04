@@ -1,14 +1,16 @@
 package com.qcm.model;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
-@Table(name = "utilisateur")
-public class Utilisateur {
+public class Utilisateur implements Serializable{
+	
+	private static final long serialVersionUID = 5504618363874520792L;
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)

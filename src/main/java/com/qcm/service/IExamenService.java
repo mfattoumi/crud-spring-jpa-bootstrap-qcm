@@ -1,5 +1,5 @@
 package com.qcm.service;
 
-public interface ExamenService {
+public interface IExamenService {
 
 }

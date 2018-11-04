@@ -1,7 +1,12 @@
 package com.qcm.service.impl;
 
-import com.qcm.service.ReponseService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-public class ReponseServiceImpl implements ReponseService{
+import com.qcm.service.IReponseService;
+
+@Service
+@Transactional
+public class ReponseServiceImpl implements IReponseService{
 
 }

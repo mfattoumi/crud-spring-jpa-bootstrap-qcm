@@ -1,7 +1,12 @@
 package com.qcm.service.impl;
 
-import com.qcm.service.QuestionService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-public class QuestionServiceImpl implements QuestionService{
+import com.qcm.service.IQuestionService;
+
+@Service
+@Transactional
+public class QuestionServiceImpl implements IQuestionService{
 
 }

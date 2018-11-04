@@ -1,7 +1,12 @@
 package com.qcm.service.impl;
 
-import com.qcm.service.ResultatService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-public class ResultatServiceImpl implements ResultatService{
+import com.qcm.service.IResultatService;
+
+@Service
+@Transactional
+public class ResultatServiceImpl implements IResultatService{
 
 }

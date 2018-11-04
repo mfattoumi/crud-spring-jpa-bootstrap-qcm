@@ -1,5 +1,5 @@
 package com.qcm.service;
 
-public interface DomaineService {
+public interface IDomaineService {
 
 }

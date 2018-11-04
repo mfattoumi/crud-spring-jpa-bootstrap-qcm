@@ -1,7 +1,12 @@
 package com.qcm.service.impl;
 
-import com.qcm.service.ExamenService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-public class ExamenServiceImpl implements ExamenService{
+import com.qcm.service.IExamenService;
+
+@Service
+@Transactional
+public class ExamenServiceImpl implements IExamenService{
 
 }

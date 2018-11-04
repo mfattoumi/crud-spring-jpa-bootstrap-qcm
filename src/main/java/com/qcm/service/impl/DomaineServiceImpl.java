@@ -1,7 +1,12 @@
 package com.qcm.service.impl;
 
-import com.qcm.service.DomaineService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-public class DomaineServiceImpl implements DomaineService{
+import com.qcm.service.IDomaineService;
+
+@Service
+@Transactional
+public class DomaineServiceImpl implements IDomaineService{
 
 }

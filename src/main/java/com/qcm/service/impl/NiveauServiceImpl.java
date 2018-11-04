@@ -1,7 +1,12 @@
 package com.qcm.service.impl;
 
-import com.qcm.service.NiveauService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-public class NiveauServiceImpl implements NiveauService{
+import com.qcm.service.INiveauService;
+
+@Service
+@Transactional
+public class NiveauServiceImpl implements INiveauService{
 
 }

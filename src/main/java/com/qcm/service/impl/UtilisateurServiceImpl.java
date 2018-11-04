@@ -1,7 +1,12 @@
 package com.qcm.service.impl;
 
-import com.qcm.service.UtilisateurService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-public class UtilisateurServiceImpl implements UtilisateurService{
+import com.qcm.service.IUtilisateurService;
+
+@Service
+@Transactional
+public class UtilisateurServiceImpl implements IUtilisateurService{
 
 }
