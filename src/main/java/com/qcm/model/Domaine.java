@@ -10,14 +10,12 @@ import javax.persistence.Id;
 @Entity
 public class Domaine implements Serializable{
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 7354827852326939162L;
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
     private Long idDomaine;
+	
     private String libelleDomaine;
 	
     public Long getIdDomaine() {

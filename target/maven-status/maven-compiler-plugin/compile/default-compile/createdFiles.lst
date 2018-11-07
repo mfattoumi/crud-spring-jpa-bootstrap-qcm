@@ -9,7 +9,6 @@ com\qcm\service\impl\QuestionServiceImpl.class
 com\qcm\controllers\DomaineController.class
 com\qcm\repository\UtilisateurRepository.class
 com\qcm\service\INiveauService.class
-com\qcm\props\ApplicationProperties.class
 com\qcm\service\impl\UtilisateurServiceImpl.class
 com\qcm\QcmApplication.class
 com\qcm\model\Resultat.class
@@ -23,6 +22,7 @@ com\qcm\model\Domaine.class
 com\qcm\service\IResultatService.class
 com\qcm\repository\DomaineRepository.class
 com\qcm\service\impl\ResultatServiceImpl.class
+com\qcm\controllers\NiveauController.class
 com\qcm\service\IReponseService.class
 com\qcm\repository\NiveauRepository.class
 com\qcm\service\IDomaineService.class
