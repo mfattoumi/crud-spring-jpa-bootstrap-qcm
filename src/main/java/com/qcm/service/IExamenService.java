@@ -1,5 +1,8 @@
 package com.qcm.service;
 
-public interface IExamenService {
+import com.qcm.model.Examen;
 
+public interface IExamenService {
+	public void saveExamen(Examen examen);
+	
 }
