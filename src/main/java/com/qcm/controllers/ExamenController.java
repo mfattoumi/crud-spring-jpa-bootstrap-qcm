@@ -27,8 +27,8 @@ public class ExamenController {
 	public String saveExamen(Model model,String libelleExamen) {
 		Examen examen = new Examen();
 		examen.setLibelleExamen(libelleExamen);
-		examenService.saveDomaine(examen);
+		examenService.saveExamen(examen);
 		
-		return "domaines";	
+		return "examens";	
 	}
 }
